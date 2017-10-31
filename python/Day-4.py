@@ -1,4 +1,5 @@
 class Person:
+    # Define the constructor for Person class
     def __init__(self,initialAge):
         if initialAge >= 0:
             self.age = initialAge
