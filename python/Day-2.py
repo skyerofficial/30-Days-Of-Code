@@ -1,7 +1,8 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 mealCost = float(input())
-tipPercent = int(input())
+tipPercent = int(input()) 
 taxPercent = int(input())
+# Computations
 tip = float((mealCost * tipPercent)/100)
 tax = float(mealCost * (taxPercent / 100))
 totalCost = int(round(mealCost+tip+tax))
