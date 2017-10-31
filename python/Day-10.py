@@ -1,6 +1,7 @@
 #!/bin/python3
 
 import sys
+# get the input number
 n = int(input().strip())
 def max(a,b):
     return a if a>b else b
