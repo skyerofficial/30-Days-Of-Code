@@ -2,6 +2,7 @@
 
 import sys
 N = int(input().strip())
+# Condition Check
 if N < 1 or N > 100:
     print("Weird")
 else:
