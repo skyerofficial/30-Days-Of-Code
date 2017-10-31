@@ -1,5 +1,5 @@
 #!/bin/python3
-
+# Add She Bang!
 import sys
 N = int(input().strip())
 multiple = 1
