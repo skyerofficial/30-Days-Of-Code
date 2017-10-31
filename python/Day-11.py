@@ -2,6 +2,7 @@
 
 import sys
 arr = []
+# Greater value function def
 def max(a,b):
     return a if a>b else b
 def sum(i,j):
