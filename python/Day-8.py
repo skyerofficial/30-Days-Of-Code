@@ -1,6 +1,6 @@
 totalNums = int(input())
 phoneBook={}
-for i in range(0,totalNums):
+for _ in range(0,totalNums):
     string = input()
     Input = string.split(' ')
     phoneBook[Input[0]]=Input[1]
