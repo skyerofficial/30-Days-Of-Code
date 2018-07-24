@@ -1,10 +1,12 @@
 #!/bin/python3
-
+# SheBang! for Python 3
 import sys
 N = int(input().strip())
+# Define the range for the number
 if N < 1 or N > 100:
     print("Weird")
 else:
+    # Check for Odd / Even 
     if N%2:
         print("Weird")
     else:
